@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI";
+  margin: 0 auto;
+}
+
+.MainContainer {
+  width: 95%;
+  height: 100vh;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.Header {
+  width: 100%;
+  height: 20%;
+  background-color: #fbe7cf;
+  border: 5px solid #fffee4;
+}
+
+.Wrapper {
+  width: 100%;
+  height: 55%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.Whatever1 {
+  width: 23.5%;
+  background-color: #dfd7e6;
+  border: 5px solid #a596ad;
+}
+
+.Main {
+  width: 50%;
+  background-color: #f2d0ce;
+  border: 5px solid #d59b9a;
+}
+
+.Whatever2 {
+  width: 23.5%;
+  background-color: #dde8fa;
+  border: 5px solid #b6c4df;
+}
+.Footer {
+  background-color: #d9e7d6;
+  width: 100%;
+  height: 20%;
+  margin-top: 20px;
+  border: 5px solid #aab69e;
+}
+
+.Text {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 200px;
+}
+.HText {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 150px;
+}

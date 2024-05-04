@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+}
+.mainContainer p {
+  font-size: 27px;
+  font-weight: 600;
+}
+.header {
+  width: 100%;
+  height: 17%;
+  background-color: #ffa586;
+}
+
+.navbar {
+  width: 100%;
+  height: 10%;
+  background-color: #ffa586;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbar > .navText {
+  width: 25%;
+  height: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 25px;
+}
+
+.navbar > .navBtn {
+  /* background-color: black; */
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.navBtn div {
+  width: 22%;
+  height: 100%;
+  background-color: #faf0ef;
+}
+
+.innerContainer {
+  width: 100%;
+  height: 43%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.innerContainer1 {
+  width: 65%;
+  height: 100%;
+  background-color: #33cbfd;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.innerContainer1 p {
+  font-size: 27px;
+  font-weight: 600;
+}
+.innerContainer1 section p {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px;
+}
+.innerContainer1 section {
+  width: 100%;
+  height: 25%;
+  background-color: #a1e1fd;
+}
+
+.innerContainer2 {
+  width: 33%;
+  height: 100%;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.innerContainer2 p {
+  font-size: 27px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+}
+
+.innerContainer2 div {
+  width: 100%;
+  height: 20%;
+  background-color: #e9e9e9;
+}
+
+.innerContainer2 .divLast {
+  margin-bottom: 60px;
+}
+.footer {
+  width: 100%;
+  height: 15%;
+  background-color: #ffa586;
+  padding: 10px;
+}
+
+.footer p {
+  font-size: 27px;
+  font-weight: 600;
+}

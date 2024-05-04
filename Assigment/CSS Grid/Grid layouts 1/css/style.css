@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+body{
+    font-family: serif;
+    padding: 20px;
+}
+
+.container{
+    width:100%;
+    height: 100vh;
+    margin: 0 auto;
+    /* background-color: brown; */
+   
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+    /* background-color: yellow; */
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.logo{
+    background-color: #0F1629;
+    color: white;
+   
+}
+
+/* .logo >p{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+} */
+
+.menu{
+    background-color: #EF3C4F;
+
+}
+/* .menu p {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+} */
+
+.ptext{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.hero{
+    width: 100%;
+    height: 47%;
+    background-color: #4C85C8;
+
+}
+
+.hero p {
+    color: white;
+    text-align: center;
+    padding: 10%;
+}
+
+.content{
+    width: 100%;
+    height: 32%;
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 200px;
+}
+
+.content .content-left{
+background-color: #25354C
+}
+.content .content-left-text{
+padding: 10%;
+}
+.content .content-right{
+background-color: yellow;
+display: grid;
+grid-template-columns: 1fr;
+}
+.content .content-right .imgdiv{
+background-color: #C2E4E5;
+}
+.content .content-right .extradiv{
+background-color: #4DBD99;
+}
+.content .content-right div{
+    padding: 10%;
+    color: black;
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    height: 11%;
+    background-color: #FED269;
+}
+
+.footer p {
+    color: black;
+    text-align: center;
+    padding: 2rem;
+}
+/* 
+@media screen and (min-width:758px){
+    .header{
+        grid-column-start: 1fr 2fr;
+    }
+} */
+
+/* @media (min-width: 768px) and (max-width: 991px) {
+    .logo:nth-of-type(1){
+        grid-template-columns: 1fr;
+        order: 1;
+    }
+    .menu:nth-of-type(2){
+        order: 4;
+    }
+
+    .hero:nth-of-type(3){
+        order: 1;
+
+    }
+    .content:nth-of-type(4){
+        order: 2;
+    }
+
+    .imgdiv:nth-of-type(5){
+
+    }
+    .extradiv:nth-of-type(6){
+
+    }
+    .footer:nth-of-type(7){
+        order: 3;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 4fr);
+    }
+} */
+
+/* @media (max-width: 767px){}
+mobile view
+
+/* .boxes button:nth-of-type(1) {
+    order: 4;
+  } */
+
+  /* boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  } */ */

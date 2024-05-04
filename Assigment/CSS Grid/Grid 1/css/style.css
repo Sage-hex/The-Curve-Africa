@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 3fr 2fr 1fr;
+}
+
+.grid-item1{
+    background-color: #;
+}
+.grid-item2{
+    background-color: #;
+}
+.grid-item3{
+    background-color: #;
+}
+.grid-item4{
+    background-color: #;
+}
+.grid-item5{
+    background-color: #;
+}
+.grid-item6{
+    background-color: #;
+}
+.grid-item7{
+    background-color: #;
+}
